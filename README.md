@@ -1,6 +1,10 @@
 # AnnaEngine anroid版
 一个可以边下边播的下载引擎
 
+demo截图
+![avatar](https://raw.githubusercontent.com/dick28cm/anna_engine_for_android/main/docs/demo.jpg)  
+
+
 ## 初始化 
 static AnnaEngine	me()   获取实例
 
