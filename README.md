@@ -1,7 +1,7 @@
 # AnnaEngine anroid版
 一个可以边下边播的下载引擎
 
-# 初始化 
+## 初始化 
 static AnnaEngine	me()   获取实例
 
 void	logEnable(boolean value)   允许日志   
@@ -12,7 +12,7 @@ void	preInit(Context ctx, java.lang.String engineName)    预初始化, 最好�
 
 void	tryInit(Context ctx)   初始化引擎, 最好在获取权限以后, 需要最基础的权限是 WRITE_EXTERNAL_STORAGE READ_EXTERNAL_STORAGE没有则返回错误码   
 
-# 添加任务  
+## 添加任务  
 java.lang.String	addEmule(java.lang.String uri)   添加电驴   
 
 java.lang.String	addMagnet(java.lang.String infoHash, int index)   添加磁力   
@@ -22,32 +22,32 @@ java.lang.String	addMagnet(java.lang.String infoHash, int index, java.lang.Strin
 java.lang.String	addUri(java.lang.String uri, java.util.Map<java.lang.String,java.lang.String> params)  添加url并返回taskId   
 
 
-# 获取任务 
+## 获取任务 
 com.anna.engine.DLL.TaskList	getCompletedTasks()   获取已经完成的任务   
 
 com.anna.engine.DLL.TaskList	getDownloadingTasks()   获取正在下载的任务
 
 
-# 边下边播  
+## 边下边播  
 java.lang.String	getPlayUrl(java.lang.String taskId)    获取配置   
 
 java.lang.String	getStatusUrl(java.lang.String taskId)  获取下载状态链接      
 
 
-# 解析磁力/种子
+## 解析磁力/种子
 void	parseMagnet(java.lang.String magnetUrl, com.anna.engine.MagnetCallback callback)   解析磁力 (异步)   
 
 void	parseTorrent(java.lang.String path, com.anna.engine.MagnetCallback callback)   解析种子 (异步)   
 
 
-#任务控制
+## 任务控制
 int	pauseDownload(java.lang.String taskId)   暂停 
 
 int	removeDownload(java.lang.String taskId, boolean delFile)   删除下载   
 
 int	resumeDownload(java.lang.String taskId)   开始/恢复下载     
 
-# 配置
+## 配置
 java.lang.String	getOption(java.lang.String key)   获取配置   
 
 boolean	getBoolOption(java.lang.String key)  获取配置   
