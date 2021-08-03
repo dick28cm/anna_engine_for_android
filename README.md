@@ -66,7 +66,7 @@ void	updateTaskName(java.lang.String taskId, java.lang.String taskName)   修改
 
 
 
-//
+#校验返回码
 ndk内不向java抛出任务异常,可能会导致闪退,所以用错误码代替返回 关于返回错误码定义   
 >0 代表成功    
 >-10: 解析磁力/种子出错     
