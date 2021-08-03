@@ -61,12 +61,12 @@ void	setIntOption(java.lang.String key, int value)   设置配置
 void	setOption(java.lang.String key, java.lang.String value)   设置配置   
 
 
-# 修改任务
+## 修改任务
 void	updateTaskName(java.lang.String taskId, java.lang.String taskName)   修改任务名    
 
 
 
-#校验返回码
+## 校验返回码
 ndk内不向java抛出任务异常,可能会导致闪退,所以用错误码代替返回 关于返回错误码定义   
 >0 代表成功    
 >-10: 解析磁力/种子出错     
