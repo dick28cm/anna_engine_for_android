@@ -1,6 +1,13 @@
 # AnnaEngine anroid版
 
+
 一个可以边下边播的下载引擎
+
+一个可以边下边播的下载引擎, 不能下载可以tg联系我: @czb123
+
+demo截图
+![avatar](https://raw.githubusercontent.com/dick28cm/anna_engine_for_android/main/docs/demo.jpg)  
+
 
 ## 初始化
 
